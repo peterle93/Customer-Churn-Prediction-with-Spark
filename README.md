@@ -1,4 +1,3 @@
-# Customer-Churn-Prediction-with-Spark
 ## Table of Contents
 1. [Project Motivation](#motivation)
 2. [Summary of Results](#results)
@@ -9,9 +8,11 @@
 
 ## Project Motivation <a name="motivation"></a>
 ### Customer Churn Prediction with Spark
-Customer retention is critical for a thriving business. When we are enjoying the digital services with one-click-to-subscribe, companies are pulling hairs out because someone just took one click to quit. If we can identify which users are at-risk to churn, then the business can take action and potentially make them stay.
+Project Overview: In this project, a digital music service named Sparkify similar to Spotfiy and Pandora is set up with user data. Spark will be used to manipulate the customer data to perform data exploratory analysis, and build predictive machine learning models of the customer churn in the Spark big-data framework. 
 
-In this project we will predict users that are at-risk to churn for Sparkify. Sparkify is a music streaming service in the Udacity universe. Just like Spotify, users can choose free tier subscription with ads or paid tier without ads. We will first analyze the data on a smaller subset (128MB), then deploy the pipeline to cloud services like AWS EMR to tune selected models with the full dataset (12GB).
+If companies were able to utilize customer-usage data and find trends in them and accurately map them to indicate which customer may churn, it is possible to incentivize customers to remain using their services. Determining such patterns could be beneficial from the perspective of targeted advertising, customer demographics with advantageous average behavior may be targeted for advertising with hopes of better returns than blanket advertising.
+
+Project Purpose: Churn prevention is a hot and challenging problem in almost every product and service company. If the risk of users disconnecting service could be predicted, then companies could take action to keep their customers from leaving their service. In this specific case for Sparkify, what I do is to predict users at risk to cancel their services or downgrading from premium to free tier altogether. More specifically, I will use the monthly user-product interations along with user demographic information to predict next month churn. If we could get good model performance and make it into production, company would benefit a lot.
 
 ## Summary of Results <a name="results"></a>
 
