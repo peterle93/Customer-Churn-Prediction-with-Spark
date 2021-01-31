@@ -11,9 +11,25 @@ Project Overview: Sparkify is a digital music service similar to Spotfiy and Pan
  
 Project Purpose: In order to identify users who are likely to churn, it’s important to perform an exploratory analysis to glean insights from the data set and identify key variables of interest. The next process is to experiment different model algorithms and then select the best model based on key evaluation metric such as F1 Score and accuracy using Spark ML Library.
 
-Data
+### Data
 The data we have from Sparkify is that of user events. Every interaction of every user with the application is given to us. This means every time a user goes to the Home page, listens to a song, thumbs up a song, etc. we have an event in the data corresponding to the same.
 
+### Feature Selection
+### Features Selected to be used for modeling
+
+The following Features will be created at user level:
+
+1.  gender: gender of the user. Male = "1", Female = "0" [binary]
+2.  churn: a page for 'Cancel Confirmation' defined as churn. Churn = "1", Absence of churn = "0" [binary]
+3.  level: latest level of a user. paid = "1", free = "0" [binary]
+4.  length: user total length of songs listened [float]
+5.  avg_session_duration: user average session duration [float]
+6.  location: location of the user [binary]
+7.  page: number visits per page feature - Add friend, Add to Playlist, Downgrade, Error, Help, Home, etc..  [int]
+8.  time_since_reg: time since registration [int]
+9.  sessions: total number of sessions [int]
+10. songs: total number of songs played [int]
+11. userAgent: agents/device used by the user [binary]
 
 ## Summary of Results <a name="results"></a>
 We fitted logistic regression, Random Forest Gradient boosting and Decision Tree classifier with default parameter. We'll look for f1 score and accuracy, however f1 score is more reliable in this case due to imbalance in class from accuracy. The table summarised the scores for these classifiers and logistic regression tuned.
