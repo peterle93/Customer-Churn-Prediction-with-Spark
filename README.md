@@ -15,8 +15,6 @@ Project Purpose: In order to identify users who are likely to churn, it’s impo
 The data we have from Sparkify is that of user events. Every interaction of every user with the application is given to us. This means every time a user goes to the Home page, listens to a song, thumbs up a song, etc. we have an event in the data corresponding to the same.
 
 ### Feature Selection
-### Features Selected to be used for modeling
-
 The following Features will be created at user level:
 
 1.  gender: gender of the user. Male = "1", Female = "0" [binary]
