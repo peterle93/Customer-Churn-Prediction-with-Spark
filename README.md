@@ -7,6 +7,7 @@
 
 ## Project Motivation <a name="motivation"></a>
 ### Customer Churn Prediction with Spark
+
 **Project Overview:** Sparkify is a digital music service similar to Spotfiy and Pandora. In Sparkify, users can either listen to music for free or buy a subscription. Customer churn prevention is a hot and challenging problem in almost every product and service company. If companies were able to utilize customer-usage data to find unique trends and accurately map them to indicate which customers may churn, it would be possible to incentivize customers to remain using their services giving them a loyal customer base which is key for a company’s growth.
  
 **Project Purpose:** In order to identify users who are likely to churn, it’s important to perform an exploratory analysis to glean insights from the data set and identify key variables of interest. The next process is to experiment different model algorithms and then select the best model based on key evaluation metric such as F1 Score and accuracy using Spark ML Library.
@@ -16,7 +17,7 @@ The expectation is that some of these features will reveal a substantial differe
 **Metrics:** 
 The classification model is evaluated using standard metrics for binary output data - accuracy and F1-score. F1-score is given greater importance from an interpretation perspective due to imbalanced nature of the output data (significantly fewer customers churn than don't). Accuracy only works well when the dataset classes are balanced
 
-### Data
+## Data
 The data we have from Sparkify is that of user events. Every interaction of every user with the application is given to us. This means every time a user goes to the Home page, listens to a song, thumbs up a song, etc. we have an event in the data corresponding to the same.
 
 ### Medium Article: https://le-peter1993.medium.com/customer-churn-prediction-with-spark-963cb41359a1
