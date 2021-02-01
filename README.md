@@ -37,7 +37,7 @@ The following Features will be created at user level:
 11. userAgent: agents/device used by the user [binary]
 
 ## Summary of Results <a name="results"></a>
-We fitted logistic regression, Random Forest Gradient boosting and Decision Tree classifier with default parameter. We'll look for f1 score and accuracy, however f1 score is more reliable in this case due to imbalance in class from accuracy. The table summarised the scores for these classifiers and logistic regression tuned.
+We fitted logistic regression, Random Forest, Gradient boosting and Decision Tree classifier with default parameter. We'll look for f1 score and accuracy, however f1 score is more reliable in this case due to imbalance in class from accuracy. The table summarised the scores for these classifiers and logistic regression tuned.
 
 | Classifier      | f1-score | accuracy |
 | -------------   | ------:| -------:|
@@ -46,13 +46,15 @@ We fitted logistic regression, Random Forest Gradient boosting and Decision Tree
 | Gradient Boosting |0.99038|0.99044|
 | Decision Tree|0.93170|0.93418|
 
+With the default parameter, Gradient Boosting has the highest score of all the metrics and Random forest comes second.
+
 | Classifier      | f1-score | accuracy |
 | -------------   | ------:| -------:|
 | Logistic Regression Tuned|0.89731|0.90552|
 | Random Forest Tuned     |0.98705|0.98726|
 | Gradient Boosting Tuned|0.99146|0.99150|
 
-With the default parameter, Gradient Boosting has the highest score of all the metrics and Logistic Regression comes second.
+After tuning with various gridsearch parameters, Gradient Boosting remains the highest score of all the metrics and Random forest comes second.
 
 ## Libraries and Dependencies: <a name="libraries"></a>
 
@@ -74,3 +76,5 @@ Python 3.6.6+, Spark
 
 ## Acknowledgements <a name="acknowledgements"></a>
 1. https://www.udacity.com/
+2. https://www.kdnuggets.com/2019/05/churn-prediction-machine-learning.html
+3. https://medium.com/analytics-vidhya/introduction-to-the-gradient-boosting-algorithm-c25c653f826b
