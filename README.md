@@ -45,6 +45,9 @@ We fitted logistic regression, Random Forest Gradient boosting and Decision Tree
 | Random Forest      |0.94284|0.94692|
 | Gradient Boosting |0.99038|0.99044|
 | Decision Tree|0.93170|0.93418|
+
+| Classifier      | f1-score | accuracy |
+| -------------   | ------:| -------:|
 | Logistic Regression Tuned|0.89731|0.90552|
 | Random Forest Tuned     |0.98705|0.98726|
 | Gradient Boosting Tuned|0.99146|0.99150|
