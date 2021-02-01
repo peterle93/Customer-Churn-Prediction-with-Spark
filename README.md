@@ -7,9 +7,14 @@
 
 ## Project Motivation <a name="motivation"></a>
 ### Customer Churn Prediction with Spark
-Project Overview: Sparkify is a digital music service similar to Spotfiy and Pandora. In Sparkify, users can either listen to music for free or buy a subscription. Customer churn prevention is a hot and challenging problem in almost every product and service company. If companies were able to utilize customer-usage data to find unique trends and accurately map them to indicate which customers may churn, it would be possible to incentivize customers to remain using their services giving them a loyal customer base which is key for a company’s growth.
+**Project Overview:** Sparkify is a digital music service similar to Spotfiy and Pandora. In Sparkify, users can either listen to music for free or buy a subscription. Customer churn prevention is a hot and challenging problem in almost every product and service company. If companies were able to utilize customer-usage data to find unique trends and accurately map them to indicate which customers may churn, it would be possible to incentivize customers to remain using their services giving them a loyal customer base which is key for a company’s growth.
  
-Project Purpose: In order to identify users who are likely to churn, it’s important to perform an exploratory analysis to glean insights from the data set and identify key variables of interest. The next process is to experiment different model algorithms and then select the best model based on key evaluation metric such as F1 Score and accuracy using Spark ML Library.
+**Project Purpose:** In order to identify users who are likely to churn, it’s important to perform an exploratory analysis to glean insights from the data set and identify key variables of interest. The next process is to experiment different model algorithms and then select the best model based on key evaluation metric such as F1 Score and accuracy using Spark ML Library.
+
+The expectation is that some of these features will reveal a substantial difference between customers that churn versus those that don't. This information is used to create useful features for a classification model for churn. We will experiment using models such as Logistic regression, random forest, gradient boosting, and decision tree to evaluate the problem.
+
+**Metrics:** 
+The classification model is evaluated using standard metrics for binary output data - accuracy and F1-score. F1-score is given greater importance from an interpretation perspective due to imbalanced nature of the output data (significantly fewer customers churn than don't). Accuracy only works well when the dataset classes are balanced
 
 ### Data
 The data we have from Sparkify is that of user events. Every interaction of every user with the application is given to us. This means every time a user goes to the Home page, listens to a song, thumbs up a song, etc. we have an event in the data corresponding to the same.
@@ -36,11 +41,13 @@ We fitted logistic regression, Random Forest Gradient boosting and Decision Tree
 
 | Classifier      | f1-score | accuracy |
 | -------------   | ------:| -------:|
-| Logistic Regression|0.92740|0.92887|
-| Random Forest      |0.92187|0.92993|
-| Gradient Boosting |0.98821|0.98832|
-| Decision Tree|0.94152|0.90552|
+| Logistic Regression|0.86539|0.87685|
+| Random Forest      |0.94284|0.94692|
+| Gradient Boosting |0.99038|0.99044|
+| Decision Tree|0.93170|0.93418|
 | Logistic Regression Tuned|0.89731|0.90552|
+| Random Forest Tuned     |0.98705|0.98726|
+| Gradient Boosting Tuned|0.99146|0.99150|
 
 With the default parameter, Gradient Boosting has the highest score of all the metrics and Logistic Regression comes second.
 
