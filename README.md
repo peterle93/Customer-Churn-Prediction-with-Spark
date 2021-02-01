@@ -54,6 +54,7 @@ With the default parameter, Gradient Boosting has the highest score of all the m
 | Logistic Regression Tuned|0.89731|0.90552|
 | Random Forest Tuned     |0.98705|0.98726|
 | Gradient Boosting Tuned|0.99146|0.99150|
+| Decision Tree Tuned|0.98497|0.98513|
 
 After tuning with various gridsearch parameters, Gradient Boosting remains the highest score of all the metrics and Random forest comes second.
 
