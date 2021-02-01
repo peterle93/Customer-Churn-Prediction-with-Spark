@@ -20,15 +20,16 @@ The data we have from Sparkify is that of user events. Every interaction of ever
 The following Features will be created at user level:
 
 1.  gender: gender of the user. Male = "1", Female = "0" [binary]
-2.  level: latest level of a user. paid = "1", free = "0" [binary]
-3.  length: user total length of songs listened [float]
-4.  avg_session_duration: user average session duration [float]
-5.  location: location of the user [binary]
-6.  page: number visits per page feature - Add friend, Add to Playlist, Downgrade, Error, Help, Home, etc..  [int]
-7.  time_since_reg: time since registration [int]
-8.  sessions: total number of sessions [int]
-9. songs: total number of songs played [int]
-10. userAgent: agents/device used by the user [binary]
+2. churn: a page for 'Cancel Confirmation' defined as churn. Churn = "1", Absence of churn = "0" binary
+3.  level: latest level of a user. paid = "1", free = "0" [binary]
+4.  length: user total length of songs listened [float]
+5.  avg_session_duration: user average session duration [float]
+6.  location: location of the user [binary]
+7.  page: number visits per page feature - Add friend, Add to Playlist, Downgrade, Error, Help, Home, etc..  [int]
+8.  time_since_reg: time since registration [int]
+9.  sessions: total number of sessions [int]
+10. songs: total number of songs played [int]
+11. userAgent: agents/device used by the user [binary]
 
 ## Summary of Results <a name="results"></a>
 We fitted logistic regression, Random Forest Gradient boosting and Decision Tree classifier with default parameter. We'll look for f1 score and accuracy, however f1 score is more reliable in this case due to imbalance in class from accuracy. The table summarised the scores for these classifiers and logistic regression tuned.
