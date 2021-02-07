@@ -38,7 +38,9 @@ The following Features will be created at user level:
 11. userAgent: agents/device used by the user [binary]
 
 ## Summary of Results <a name="results"></a>
-We fitted logistic regression, Random Forest, Gradient boosting and Decision Tree classifier with default parameter. We'll look for f1 score and accuracy, however f1 score is more reliable in this case due to imbalance in class from accuracy. The table summarised the scores for these classifiers.
+We fitted logistic regression, Random Forest, Gradient boosting and Decision Tree classifier with default parameter. We'll look for f1 score and accuracy, however f1 score is more reliable in this case due to imbalance in class from accuracy. 
+
+**The table summarised the scores for these classifiers.**
 
 | Classifier      | f1-score | accuracy |
 | -------------   | ------:| -------:|
@@ -48,6 +50,8 @@ We fitted logistic regression, Random Forest, Gradient boosting and Decision Tre
 | Decision Tree|0.93170|0.93418|
 
 With the default parameter, Gradient Boosting has the highest score of all the metrics and Random forest comes second.
+
+**The table summarised the scores for the tuned classifiers.**
 
 | Classifier      | f1-score | accuracy |
 | -------------   | ------:| -------:|
