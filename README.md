@@ -22,7 +22,7 @@ The data we have from Sparkify is that of user events. Every interaction of ever
 
 ### Medium Article: https://le-peter1993.medium.com/customer-churn-prediction-with-spark-963cb41359a1
 
-### Feature Selection
+## Feature Selection
 The following Features will be created at user level:
 
 1.  gender: gender of the user. Male = "1", Female = "0" [binary]
