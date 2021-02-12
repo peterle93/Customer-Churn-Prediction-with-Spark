@@ -20,7 +20,8 @@ The classification model is evaluated using standard metrics for binary output d
 **Data:**
 The data we have from Sparkify is that of user events. Every interaction of every user with the application is given to us. This means every time a user goes to the Home page, listens to a song, thumbs up a song, etc. we have an event in the data corresponding to the same.
 
-### Medium Article: https://le-peter1993.medium.com/customer-churn-prediction-with-spark-963cb41359a1
+### Medium Article: 
+I wrote an article on medium that provides more details and indepth explanations: [Here](https://le-peter1993.medium.com/customer-churn-prediction-with-spark-963cb41359a1)
 
 ## Feature Selection
 The following Features will be created at user level:
