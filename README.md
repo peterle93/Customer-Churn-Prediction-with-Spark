@@ -63,7 +63,11 @@ With the default parameter, Gradient Boosting has the highest score of all the m
 
 After tuning with various gridsearch parameters, Gradient Boosting remains the highest score of all the metrics and Random forest comes second.
 
+![Customer Churn Prediction with Spark](https://raw.githubusercontent.com/peterle93/Customer-Churn-Prediction-with-Spark/master/images/featurelr.png)
+
 ## Libraries and Dependencies: <a name="libraries"></a>
+
+![Customer Churn Prediction with Spark](https://raw.githubusercontent.com/peterle93/Customer-Churn-Prediction-with-Spark/master/images/spark-logo-trademark.png)
 
 Python 3.6.6+, Spark
 
