@@ -92,6 +92,7 @@ Python 3.6.6+, Spark
 1. Sparkify.ipynb - Jupyter notebook containing Spark implementation.
 2. README.md (this file)
 3. Sparkify - Extra EDA.ipynb - extra Exploratory Analysis 
+4. images - contains charts and images used 
 
 ## Acknowledgements <a name="acknowledgements"></a>
 1. https://www.udacity.com/
