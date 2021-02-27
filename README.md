@@ -65,6 +65,14 @@ After tuning with various gridsearch parameters, Gradient Boosting remains the h
 
 ![Customer Churn Prediction with Spark](https://raw.githubusercontent.com/peterle93/Customer-Churn-Prediction-with-Spark/master/images/featurelr.png)
 
+**Top 5 Feature Importances were is as listed below:**
+
+1. Page Settings
+2. Page Home
+3. Page Thumbs Up
+4. Total Time
+5. Page Error
+
 ## Libraries and Dependencies: <a name="libraries"></a>
 
 ![Customer Churn Prediction with Spark](https://raw.githubusercontent.com/peterle93/Customer-Churn-Prediction-with-Spark/master/images/spark-logo-trademark.png)
