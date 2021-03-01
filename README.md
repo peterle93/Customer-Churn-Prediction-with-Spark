@@ -24,7 +24,7 @@ The data we have from Sparkify is that of user events. Every interaction of ever
 I wrote an article on medium that provides more details and indepth explanations: [Here](https://le-peter1993.medium.com/customer-churn-prediction-with-spark-963cb41359a1)
 
 ## Feature Selection
-The following Features will be created at user level:
+**The following Features will be created at user level:**
 
 1.  gender: gender of the user. Male = "1", Female = "0" [binary]
 2. churn: a page for 'Cancel Confirmation' defined as churn. Churn = "1", Absence of churn = "0" binary
@@ -62,6 +62,8 @@ With the default parameter, Gradient Boosting has the highest score of all the m
 | Decision Tree Tuned|0.98497|0.98513|
 
 After tuning with various gridsearch parameters, Gradient Boosting remains the highest score of all the metrics and Random forest comes second.
+
+**Feature importance was calculated using the Logistic Regression model**
 
 ![Customer Churn Prediction with Spark](https://raw.githubusercontent.com/peterle93/Customer-Churn-Prediction-with-Spark/master/images/featurelr.png)
 
