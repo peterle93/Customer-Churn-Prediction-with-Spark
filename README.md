@@ -67,7 +67,7 @@ After tuning with various gridsearch parameters, Gradient Boosting remains the h
 
 ![Customer Churn Prediction with Spark](https://raw.githubusercontent.com/peterle93/Customer-Churn-Prediction-with-Spark/master/images/featurelr.png)
 
-**Top 5 Feature Importances were is as listed below:**
+**Top 5 Feature Importances were as listed below:**
 
 1. Page Settings
 2. Page Home
