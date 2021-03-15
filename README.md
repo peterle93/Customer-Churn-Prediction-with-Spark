@@ -79,7 +79,7 @@ After tuning with various gridsearch parameters, Gradient Boosting remains the h
 
 ![Customer Churn Prediction with Spark](https://raw.githubusercontent.com/peterle93/Customer-Churn-Prediction-with-Spark/master/images/spark-logo-trademark.png)
 
-Python 3.6.6+, Spark
+Python 3.5+, Spark
 
 1. pandas
 2. numpy
